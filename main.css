@@ -1,0 +1,40 @@
+img {
+    width: 100%;
+    height: auto; 
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+footer a{
+    color:white;
+}
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+table {
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align:center;
+}
+a {
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+a:hover {
+    color: rgb(216, 29, 29);
+}
+ul {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px
+}
+
