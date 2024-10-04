@@ -1,6 +1,8 @@
 img {
-    width: 100%;
+    width: 50%;
     height: auto; 
+    margin: left;
+    display: block;
 }
 footer{
     background-color: black;
@@ -27,14 +29,62 @@ th, td {
 a {
     text-decoration: none;
     font-family: 'Arial', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
+    text-align: center;
 }
 a:hover {
-    color: rgb(216, 29, 29);
+    color: rgb(236, 99, 97);
 }
 ul {
     font-family: 'Arial', sans-serif;
     font-size: 16px
 }
-
+nav {
+    text-align: left;
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 15px;
+}
+nav a.active {
+    color: tomato; 
+}
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: left; 
+}
+@media (max-width: 800px) {
+    nav {
+        justify-content: space-between; 
+    }
+}
+@media (max-width: 600px) {
+    h1 {
+        text-align: center; 
+    }
+    nav {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    nav a {
+        font-size: 20px; 
+    }
+    img {
+        width: 100%; 
+    }
+    section > h2 {
+        text-align: center; 
+    }
+}
+@media (max-width: 400px) {
+    nav a {
+        font-size: 12px; 
+    }
+    table {
+        font-size: 10px; 
+        width: 100%; 
+        overflow-x: auto; 
+    }
+}
